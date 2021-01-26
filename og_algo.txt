@@ -1,0 +1,2459 @@
+tnum a:  (0, 0) - tnum b:  (0, 1)
+sm:  1 
+sv:  0 
+sigma:  1 
+chi:  1 
+mu:  1 
+result:  0 , 1
+tnum a:  (0, 0) - tnum b:  (0, 2)
+sm:  2 
+sv:  0 
+sigma:  2 
+chi:  2 
+mu:  2 
+result:  0 , 2
+tnum a:  (0, 0) - tnum b:  (0, 3)
+sm:  3 
+sv:  0 
+sigma:  3 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (0, 0) - tnum b:  (0, 4)
+sm:  4 
+sv:  0 
+sigma:  4 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (0, 0) - tnum b:  (0, 5)
+sm:  5 
+sv:  0 
+sigma:  5 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (0, 0) - tnum b:  (0, 6)
+sm:  6 
+sv:  0 
+sigma:  6 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 0) - tnum b:  (0, 7)
+sm:  7 
+sv:  0 
+sigma:  7 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 0) - tnum b:  (1, 0)
+sm:  0 
+sv:  1 
+sigma:  1 
+chi:  0 
+mu:  0 
+result:  1 , 0
+tnum a:  (0, 0) - tnum b:  (1, 2)
+sm:  2 
+sv:  1 
+sigma:  3 
+chi:  2 
+mu:  2 
+result:  1 , 2
+tnum a:  (0, 0) - tnum b:  (1, 4)
+sm:  4 
+sv:  1 
+sigma:  5 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (0, 0) - tnum b:  (1, 6)
+sm:  6 
+sv:  1 
+sigma:  7 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 0) - tnum b:  (2, 0)
+sm:  0 
+sv:  2 
+sigma:  2 
+chi:  0 
+mu:  0 
+result:  2 , 0
+tnum a:  (0, 0) - tnum b:  (2, 1)
+sm:  1 
+sv:  2 
+sigma:  3 
+chi:  1 
+mu:  1 
+result:  2 , 1
+tnum a:  (0, 0) - tnum b:  (2, 4)
+sm:  4 
+sv:  2 
+sigma:  6 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (0, 0) - tnum b:  (2, 5)
+sm:  5 
+sv:  2 
+sigma:  7 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 0) - tnum b:  (3, 0)
+sm:  0 
+sv:  3 
+sigma:  3 
+chi:  0 
+mu:  0 
+result:  3 , 0
+tnum a:  (0, 0) - tnum b:  (3, 4)
+sm:  4 
+sv:  3 
+sigma:  7 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (0, 0) - tnum b:  (4, 0)
+sm:  0 
+sv:  4 
+sigma:  4 
+chi:  0 
+mu:  0 
+result:  4 , 0
+tnum a:  (0, 0) - tnum b:  (4, 1)
+sm:  1 
+sv:  4 
+sigma:  5 
+chi:  1 
+mu:  1 
+result:  4 , 1
+tnum a:  (0, 0) - tnum b:  (4, 2)
+sm:  2 
+sv:  4 
+sigma:  6 
+chi:  2 
+mu:  2 
+result:  4 , 2
+tnum a:  (0, 0) - tnum b:  (4, 3)
+sm:  3 
+sv:  4 
+sigma:  7 
+chi:  3 
+mu:  3 
+result:  4 , 3
+tnum a:  (0, 0) - tnum b:  (5, 0)
+sm:  0 
+sv:  5 
+sigma:  5 
+chi:  0 
+mu:  0 
+result:  5 , 0
+tnum a:  (0, 0) - tnum b:  (5, 2)
+sm:  2 
+sv:  5 
+sigma:  7 
+chi:  2 
+mu:  2 
+result:  5 , 2
+tnum a:  (0, 0) - tnum b:  (6, 0)
+sm:  0 
+sv:  6 
+sigma:  6 
+chi:  0 
+mu:  0 
+result:  6 , 0
+tnum a:  (0, 0) - tnum b:  (6, 1)
+sm:  1 
+sv:  6 
+sigma:  7 
+chi:  1 
+mu:  1 
+result:  6 , 1
+tnum a:  (0, 0) - tnum b:  (7, 0)
+sm:  0 
+sv:  7 
+sigma:  7 
+chi:  0 
+mu:  0 
+result:  7 , 0
+tnum a:  (0, 1) - tnum b:  (0, 2)
+sm:  3 
+sv:  0 
+sigma:  3 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (0, 1) - tnum b:  (0, 3)
+sm:  4 
+sv:  0 
+sigma:  4 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (0, 4)
+sm:  5 
+sv:  0 
+sigma:  5 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (0, 1) - tnum b:  (0, 5)
+sm:  6 
+sv:  0 
+sigma:  6 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (0, 6)
+sm:  7 
+sv:  0 
+sigma:  7 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (0, 7)
+sm:  0 
+sv:  0 
+sigma:  0 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (1, 0)
+sm:  1 
+sv:  1 
+sigma:  2 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (0, 1) - tnum b:  (1, 2)
+sm:  3 
+sv:  1 
+sigma:  4 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (1, 4)
+sm:  5 
+sv:  1 
+sigma:  6 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (1, 6)
+sm:  7 
+sv:  1 
+sigma:  0 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (2, 0)
+sm:  1 
+sv:  2 
+sigma:  3 
+chi:  1 
+mu:  1 
+result:  2 , 1
+tnum a:  (0, 1) - tnum b:  (2, 1)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (2, 4)
+sm:  5 
+sv:  2 
+sigma:  7 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 1) - tnum b:  (2, 5)
+sm:  6 
+sv:  2 
+sigma:  0 
+chi:  2 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (3, 0)
+sm:  1 
+sv:  3 
+sigma:  4 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (3, 4)
+sm:  5 
+sv:  3 
+sigma:  0 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (4, 0)
+sm:  1 
+sv:  4 
+sigma:  5 
+chi:  1 
+mu:  1 
+result:  4 , 1
+tnum a:  (0, 1) - tnum b:  (4, 1)
+sm:  2 
+sv:  4 
+sigma:  6 
+chi:  2 
+mu:  3 
+result:  4 , 3
+tnum a:  (0, 1) - tnum b:  (4, 2)
+sm:  3 
+sv:  4 
+sigma:  7 
+chi:  3 
+mu:  3 
+result:  4 , 3
+tnum a:  (0, 1) - tnum b:  (4, 3)
+sm:  4 
+sv:  4 
+sigma:  0 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (5, 0)
+sm:  1 
+sv:  5 
+sigma:  6 
+chi:  3 
+mu:  3 
+result:  4 , 3
+tnum a:  (0, 1) - tnum b:  (5, 2)
+sm:  3 
+sv:  5 
+sigma:  0 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (6, 0)
+sm:  1 
+sv:  6 
+sigma:  7 
+chi:  1 
+mu:  1 
+result:  6 , 1
+tnum a:  (0, 1) - tnum b:  (6, 1)
+sm:  2 
+sv:  6 
+sigma:  0 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 1) - tnum b:  (7, 0)
+sm:  1 
+sv:  7 
+sigma:  0 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (0, 3)
+sm:  5 
+sv:  0 
+sigma:  5 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (0, 4)
+sm:  6 
+sv:  0 
+sigma:  6 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 2) - tnum b:  (0, 5)
+sm:  7 
+sv:  0 
+sigma:  7 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (0, 6)
+sm:  0 
+sv:  0 
+sigma:  0 
+chi:  0 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 2) - tnum b:  (0, 7)
+sm:  1 
+sv:  0 
+sigma:  1 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (1, 0)
+sm:  2 
+sv:  1 
+sigma:  3 
+chi:  2 
+mu:  2 
+result:  1 , 2
+tnum a:  (0, 2) - tnum b:  (1, 2)
+sm:  4 
+sv:  1 
+sigma:  5 
+chi:  4 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 2) - tnum b:  (1, 4)
+sm:  6 
+sv:  1 
+sigma:  7 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 2) - tnum b:  (1, 6)
+sm:  0 
+sv:  1 
+sigma:  1 
+chi:  0 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 2) - tnum b:  (2, 0)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 2) - tnum b:  (2, 1)
+sm:  3 
+sv:  2 
+sigma:  5 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (2, 4)
+sm:  6 
+sv:  2 
+sigma:  0 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 2) - tnum b:  (2, 5)
+sm:  7 
+sv:  2 
+sigma:  1 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (3, 0)
+sm:  2 
+sv:  3 
+sigma:  5 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 2) - tnum b:  (3, 4)
+sm:  6 
+sv:  3 
+sigma:  1 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 2) - tnum b:  (4, 0)
+sm:  2 
+sv:  4 
+sigma:  6 
+chi:  2 
+mu:  2 
+result:  4 , 2
+tnum a:  (0, 2) - tnum b:  (4, 1)
+sm:  3 
+sv:  4 
+sigma:  7 
+chi:  3 
+mu:  3 
+result:  4 , 3
+tnum a:  (0, 2) - tnum b:  (4, 2)
+sm:  4 
+sv:  4 
+sigma:  0 
+chi:  4 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 2) - tnum b:  (4, 3)
+sm:  5 
+sv:  4 
+sigma:  1 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (5, 0)
+sm:  2 
+sv:  5 
+sigma:  7 
+chi:  2 
+mu:  2 
+result:  5 , 2
+tnum a:  (0, 2) - tnum b:  (5, 2)
+sm:  4 
+sv:  5 
+sigma:  1 
+chi:  4 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 2) - tnum b:  (6, 0)
+sm:  2 
+sv:  6 
+sigma:  0 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 2) - tnum b:  (6, 1)
+sm:  3 
+sv:  6 
+sigma:  1 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 2) - tnum b:  (7, 0)
+sm:  2 
+sv:  7 
+sigma:  1 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 3) - tnum b:  (0, 4)
+sm:  7 
+sv:  0 
+sigma:  7 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (0, 5)
+sm:  0 
+sv:  0 
+sigma:  0 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (0, 6)
+sm:  1 
+sv:  0 
+sigma:  1 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (0, 7)
+sm:  2 
+sv:  0 
+sigma:  2 
+chi:  2 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (1, 0)
+sm:  3 
+sv:  1 
+sigma:  4 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (1, 2)
+sm:  5 
+sv:  1 
+sigma:  6 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (1, 4)
+sm:  7 
+sv:  1 
+sigma:  0 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (1, 6)
+sm:  1 
+sv:  1 
+sigma:  2 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (2, 0)
+sm:  3 
+sv:  2 
+sigma:  5 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (2, 1)
+sm:  4 
+sv:  2 
+sigma:  6 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (2, 4)
+sm:  7 
+sv:  2 
+sigma:  1 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (2, 5)
+sm:  0 
+sv:  2 
+sigma:  2 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (3, 0)
+sm:  3 
+sv:  3 
+sigma:  6 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (3, 4)
+sm:  7 
+sv:  3 
+sigma:  2 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (4, 0)
+sm:  3 
+sv:  4 
+sigma:  7 
+chi:  3 
+mu:  3 
+result:  4 , 3
+tnum a:  (0, 3) - tnum b:  (4, 1)
+sm:  4 
+sv:  4 
+sigma:  0 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (4, 2)
+sm:  5 
+sv:  4 
+sigma:  1 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (4, 3)
+sm:  6 
+sv:  4 
+sigma:  2 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (5, 0)
+sm:  3 
+sv:  5 
+sigma:  0 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (5, 2)
+sm:  5 
+sv:  5 
+sigma:  2 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (6, 0)
+sm:  3 
+sv:  6 
+sigma:  1 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (6, 1)
+sm:  4 
+sv:  6 
+sigma:  2 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 3) - tnum b:  (7, 0)
+sm:  3 
+sv:  7 
+sigma:  2 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 4) - tnum b:  (0, 5)
+sm:  1 
+sv:  0 
+sigma:  1 
+chi:  1 
+mu:  5 
+result:  0 , 5
+tnum a:  (0, 4) - tnum b:  (0, 6)
+sm:  2 
+sv:  0 
+sigma:  2 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 4) - tnum b:  (0, 7)
+sm:  3 
+sv:  0 
+sigma:  3 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 4) - tnum b:  (1, 0)
+sm:  4 
+sv:  1 
+sigma:  5 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (0, 4) - tnum b:  (1, 2)
+sm:  6 
+sv:  1 
+sigma:  7 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 4) - tnum b:  (1, 4)
+sm:  0 
+sv:  1 
+sigma:  1 
+chi:  0 
+mu:  4 
+result:  1 , 4
+tnum a:  (0, 4) - tnum b:  (1, 6)
+sm:  2 
+sv:  1 
+sigma:  3 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 4) - tnum b:  (2, 0)
+sm:  4 
+sv:  2 
+sigma:  6 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (0, 4) - tnum b:  (2, 1)
+sm:  5 
+sv:  2 
+sigma:  7 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 4) - tnum b:  (2, 4)
+sm:  0 
+sv:  2 
+sigma:  2 
+chi:  0 
+mu:  4 
+result:  2 , 4
+tnum a:  (0, 4) - tnum b:  (2, 5)
+sm:  1 
+sv:  2 
+sigma:  3 
+chi:  1 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 4) - tnum b:  (3, 0)
+sm:  4 
+sv:  3 
+sigma:  7 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (0, 4) - tnum b:  (3, 4)
+sm:  0 
+sv:  3 
+sigma:  3 
+chi:  0 
+mu:  4 
+result:  3 , 4
+tnum a:  (0, 4) - tnum b:  (4, 0)
+sm:  4 
+sv:  4 
+sigma:  0 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (0, 4) - tnum b:  (4, 1)
+sm:  5 
+sv:  4 
+sigma:  1 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (0, 4) - tnum b:  (4, 2)
+sm:  6 
+sv:  4 
+sigma:  2 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 4) - tnum b:  (4, 3)
+sm:  7 
+sv:  4 
+sigma:  3 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 4) - tnum b:  (5, 0)
+sm:  4 
+sv:  5 
+sigma:  1 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (0, 4) - tnum b:  (5, 2)
+sm:  6 
+sv:  5 
+sigma:  3 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 4) - tnum b:  (6, 0)
+sm:  4 
+sv:  6 
+sigma:  2 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (0, 4) - tnum b:  (6, 1)
+sm:  5 
+sv:  6 
+sigma:  3 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 4) - tnum b:  (7, 0)
+sm:  4 
+sv:  7 
+sigma:  3 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (0, 5) - tnum b:  (0, 6)
+sm:  3 
+sv:  0 
+sigma:  3 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (0, 7)
+sm:  4 
+sv:  0 
+sigma:  4 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (1, 0)
+sm:  5 
+sv:  1 
+sigma:  6 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (1, 2)
+sm:  7 
+sv:  1 
+sigma:  0 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (1, 4)
+sm:  1 
+sv:  1 
+sigma:  2 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (1, 6)
+sm:  3 
+sv:  1 
+sigma:  4 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (2, 0)
+sm:  5 
+sv:  2 
+sigma:  7 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 5) - tnum b:  (2, 1)
+sm:  6 
+sv:  2 
+sigma:  0 
+chi:  2 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (2, 4)
+sm:  1 
+sv:  2 
+sigma:  3 
+chi:  1 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 5) - tnum b:  (2, 5)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (3, 0)
+sm:  5 
+sv:  3 
+sigma:  0 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (3, 4)
+sm:  1 
+sv:  3 
+sigma:  4 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (4, 0)
+sm:  5 
+sv:  4 
+sigma:  1 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (0, 5) - tnum b:  (4, 1)
+sm:  6 
+sv:  4 
+sigma:  2 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (4, 2)
+sm:  7 
+sv:  4 
+sigma:  3 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (4, 3)
+sm:  0 
+sv:  4 
+sigma:  4 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (5, 0)
+sm:  5 
+sv:  5 
+sigma:  2 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (5, 2)
+sm:  7 
+sv:  5 
+sigma:  4 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (6, 0)
+sm:  5 
+sv:  6 
+sigma:  3 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (0, 5) - tnum b:  (6, 1)
+sm:  6 
+sv:  6 
+sigma:  4 
+chi:  2 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 5) - tnum b:  (7, 0)
+sm:  5 
+sv:  7 
+sigma:  4 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 6) - tnum b:  (0, 7)
+sm:  5 
+sv:  0 
+sigma:  5 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 6) - tnum b:  (1, 0)
+sm:  6 
+sv:  1 
+sigma:  7 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (1, 2)
+sm:  0 
+sv:  1 
+sigma:  1 
+chi:  0 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (1, 4)
+sm:  2 
+sv:  1 
+sigma:  3 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (1, 6)
+sm:  4 
+sv:  1 
+sigma:  5 
+chi:  4 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (2, 0)
+sm:  6 
+sv:  2 
+sigma:  0 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 6) - tnum b:  (2, 1)
+sm:  7 
+sv:  2 
+sigma:  1 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 6) - tnum b:  (2, 4)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 6) - tnum b:  (2, 5)
+sm:  3 
+sv:  2 
+sigma:  5 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 6) - tnum b:  (3, 0)
+sm:  6 
+sv:  3 
+sigma:  1 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (3, 4)
+sm:  2 
+sv:  3 
+sigma:  5 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (4, 0)
+sm:  6 
+sv:  4 
+sigma:  2 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 6) - tnum b:  (4, 1)
+sm:  7 
+sv:  4 
+sigma:  3 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 6) - tnum b:  (4, 2)
+sm:  0 
+sv:  4 
+sigma:  4 
+chi:  0 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 6) - tnum b:  (4, 3)
+sm:  1 
+sv:  4 
+sigma:  5 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 6) - tnum b:  (5, 0)
+sm:  6 
+sv:  5 
+sigma:  3 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (5, 2)
+sm:  0 
+sv:  5 
+sigma:  5 
+chi:  0 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 6) - tnum b:  (6, 0)
+sm:  6 
+sv:  6 
+sigma:  4 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (0, 6) - tnum b:  (6, 1)
+sm:  7 
+sv:  6 
+sigma:  5 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 6) - tnum b:  (7, 0)
+sm:  6 
+sv:  7 
+sigma:  5 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (0, 7) - tnum b:  (1, 0)
+sm:  7 
+sv:  1 
+sigma:  0 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (1, 2)
+sm:  1 
+sv:  1 
+sigma:  2 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (1, 4)
+sm:  3 
+sv:  1 
+sigma:  4 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (1, 6)
+sm:  5 
+sv:  1 
+sigma:  6 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (2, 0)
+sm:  7 
+sv:  2 
+sigma:  1 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (2, 1)
+sm:  0 
+sv:  2 
+sigma:  2 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (2, 4)
+sm:  3 
+sv:  2 
+sigma:  5 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (2, 5)
+sm:  4 
+sv:  2 
+sigma:  6 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (3, 0)
+sm:  7 
+sv:  3 
+sigma:  2 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (3, 4)
+sm:  3 
+sv:  3 
+sigma:  6 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (4, 0)
+sm:  7 
+sv:  4 
+sigma:  3 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (4, 1)
+sm:  0 
+sv:  4 
+sigma:  4 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (4, 2)
+sm:  1 
+sv:  4 
+sigma:  5 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (4, 3)
+sm:  2 
+sv:  4 
+sigma:  6 
+chi:  2 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (5, 0)
+sm:  7 
+sv:  5 
+sigma:  4 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (5, 2)
+sm:  1 
+sv:  5 
+sigma:  6 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (6, 0)
+sm:  7 
+sv:  6 
+sigma:  5 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (6, 1)
+sm:  0 
+sv:  6 
+sigma:  6 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (0, 7) - tnum b:  (7, 0)
+sm:  7 
+sv:  7 
+sigma:  6 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 0) - tnum b:  (1, 2)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 0) - tnum b:  (1, 4)
+sm:  4 
+sv:  2 
+sigma:  6 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (1, 0) - tnum b:  (1, 6)
+sm:  6 
+sv:  2 
+sigma:  0 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 0) - tnum b:  (2, 0)
+sm:  0 
+sv:  3 
+sigma:  3 
+chi:  0 
+mu:  0 
+result:  3 , 0
+tnum a:  (1, 0) - tnum b:  (2, 1)
+sm:  1 
+sv:  3 
+sigma:  4 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 0) - tnum b:  (2, 4)
+sm:  4 
+sv:  3 
+sigma:  7 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (1, 0) - tnum b:  (2, 5)
+sm:  5 
+sv:  3 
+sigma:  0 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 0) - tnum b:  (3, 0)
+sm:  0 
+sv:  4 
+sigma:  4 
+chi:  0 
+mu:  0 
+result:  4 , 0
+tnum a:  (1, 0) - tnum b:  (3, 4)
+sm:  4 
+sv:  4 
+sigma:  0 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (1, 0) - tnum b:  (4, 0)
+sm:  0 
+sv:  5 
+sigma:  5 
+chi:  0 
+mu:  0 
+result:  5 , 0
+tnum a:  (1, 0) - tnum b:  (4, 1)
+sm:  1 
+sv:  5 
+sigma:  6 
+chi:  3 
+mu:  3 
+result:  4 , 3
+tnum a:  (1, 0) - tnum b:  (4, 2)
+sm:  2 
+sv:  5 
+sigma:  7 
+chi:  2 
+mu:  2 
+result:  5 , 2
+tnum a:  (1, 0) - tnum b:  (4, 3)
+sm:  3 
+sv:  5 
+sigma:  0 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 0) - tnum b:  (5, 0)
+sm:  0 
+sv:  6 
+sigma:  6 
+chi:  0 
+mu:  0 
+result:  6 , 0
+tnum a:  (1, 0) - tnum b:  (5, 2)
+sm:  2 
+sv:  6 
+sigma:  0 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 0) - tnum b:  (6, 0)
+sm:  0 
+sv:  7 
+sigma:  7 
+chi:  0 
+mu:  0 
+result:  7 , 0
+tnum a:  (1, 0) - tnum b:  (6, 1)
+sm:  1 
+sv:  7 
+sigma:  0 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 0) - tnum b:  (7, 0)
+sm:  0 
+sv:  0 
+sigma:  0 
+chi:  0 
+mu:  0 
+result:  0 , 0
+tnum a:  (1, 2) - tnum b:  (1, 4)
+sm:  6 
+sv:  2 
+sigma:  0 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 2) - tnum b:  (1, 6)
+sm:  0 
+sv:  2 
+sigma:  2 
+chi:  0 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 2) - tnum b:  (2, 0)
+sm:  2 
+sv:  3 
+sigma:  5 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 2) - tnum b:  (2, 1)
+sm:  3 
+sv:  3 
+sigma:  6 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 2) - tnum b:  (2, 4)
+sm:  6 
+sv:  3 
+sigma:  1 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 2) - tnum b:  (2, 5)
+sm:  7 
+sv:  3 
+sigma:  2 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 2) - tnum b:  (3, 0)
+sm:  2 
+sv:  4 
+sigma:  6 
+chi:  2 
+mu:  2 
+result:  4 , 2
+tnum a:  (1, 2) - tnum b:  (3, 4)
+sm:  6 
+sv:  4 
+sigma:  2 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 2) - tnum b:  (4, 0)
+sm:  2 
+sv:  5 
+sigma:  7 
+chi:  2 
+mu:  2 
+result:  5 , 2
+tnum a:  (1, 2) - tnum b:  (4, 1)
+sm:  3 
+sv:  5 
+sigma:  0 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 2) - tnum b:  (4, 2)
+sm:  4 
+sv:  5 
+sigma:  1 
+chi:  4 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 2) - tnum b:  (4, 3)
+sm:  5 
+sv:  5 
+sigma:  2 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 2) - tnum b:  (5, 0)
+sm:  2 
+sv:  6 
+sigma:  0 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 2) - tnum b:  (5, 2)
+sm:  4 
+sv:  6 
+sigma:  2 
+chi:  4 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 2) - tnum b:  (6, 0)
+sm:  2 
+sv:  7 
+sigma:  1 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 2) - tnum b:  (6, 1)
+sm:  3 
+sv:  7 
+sigma:  2 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 2) - tnum b:  (7, 0)
+sm:  2 
+sv:  0 
+sigma:  2 
+chi:  2 
+mu:  2 
+result:  0 , 2
+tnum a:  (1, 4) - tnum b:  (1, 6)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 4) - tnum b:  (2, 0)
+sm:  4 
+sv:  3 
+sigma:  7 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (1, 4) - tnum b:  (2, 1)
+sm:  5 
+sv:  3 
+sigma:  0 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 4) - tnum b:  (2, 4)
+sm:  0 
+sv:  3 
+sigma:  3 
+chi:  0 
+mu:  4 
+result:  3 , 4
+tnum a:  (1, 4) - tnum b:  (2, 5)
+sm:  1 
+sv:  3 
+sigma:  4 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 4) - tnum b:  (3, 0)
+sm:  4 
+sv:  4 
+sigma:  0 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (1, 4) - tnum b:  (3, 4)
+sm:  0 
+sv:  4 
+sigma:  4 
+chi:  0 
+mu:  4 
+result:  0 , 4
+tnum a:  (1, 4) - tnum b:  (4, 0)
+sm:  4 
+sv:  5 
+sigma:  1 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (1, 4) - tnum b:  (4, 1)
+sm:  5 
+sv:  5 
+sigma:  2 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 4) - tnum b:  (4, 2)
+sm:  6 
+sv:  5 
+sigma:  3 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 4) - tnum b:  (4, 3)
+sm:  7 
+sv:  5 
+sigma:  4 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 4) - tnum b:  (5, 0)
+sm:  4 
+sv:  6 
+sigma:  2 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (1, 4) - tnum b:  (5, 2)
+sm:  6 
+sv:  6 
+sigma:  4 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 4) - tnum b:  (6, 0)
+sm:  4 
+sv:  7 
+sigma:  3 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (1, 4) - tnum b:  (6, 1)
+sm:  5 
+sv:  7 
+sigma:  4 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 4) - tnum b:  (7, 0)
+sm:  4 
+sv:  0 
+sigma:  4 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (1, 6) - tnum b:  (2, 0)
+sm:  6 
+sv:  3 
+sigma:  1 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 6) - tnum b:  (2, 1)
+sm:  7 
+sv:  3 
+sigma:  2 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 6) - tnum b:  (2, 4)
+sm:  2 
+sv:  3 
+sigma:  5 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 6) - tnum b:  (2, 5)
+sm:  3 
+sv:  3 
+sigma:  6 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 6) - tnum b:  (3, 0)
+sm:  6 
+sv:  4 
+sigma:  2 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 6) - tnum b:  (3, 4)
+sm:  2 
+sv:  4 
+sigma:  6 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 6) - tnum b:  (4, 0)
+sm:  6 
+sv:  5 
+sigma:  3 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 6) - tnum b:  (4, 1)
+sm:  7 
+sv:  5 
+sigma:  4 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 6) - tnum b:  (4, 2)
+sm:  0 
+sv:  5 
+sigma:  5 
+chi:  0 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 6) - tnum b:  (4, 3)
+sm:  1 
+sv:  5 
+sigma:  6 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 6) - tnum b:  (5, 0)
+sm:  6 
+sv:  6 
+sigma:  4 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 6) - tnum b:  (5, 2)
+sm:  0 
+sv:  6 
+sigma:  6 
+chi:  0 
+mu:  6 
+result:  0 , 6
+tnum a:  (1, 6) - tnum b:  (6, 0)
+sm:  6 
+sv:  7 
+sigma:  5 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (1, 6) - tnum b:  (6, 1)
+sm:  7 
+sv:  7 
+sigma:  6 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (1, 6) - tnum b:  (7, 0)
+sm:  6 
+sv:  0 
+sigma:  6 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (2, 0) - tnum b:  (2, 1)
+sm:  1 
+sv:  4 
+sigma:  5 
+chi:  1 
+mu:  1 
+result:  4 , 1
+tnum a:  (2, 0) - tnum b:  (2, 4)
+sm:  4 
+sv:  4 
+sigma:  0 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (2, 0) - tnum b:  (2, 5)
+sm:  5 
+sv:  4 
+sigma:  1 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (2, 0) - tnum b:  (3, 0)
+sm:  0 
+sv:  5 
+sigma:  5 
+chi:  0 
+mu:  0 
+result:  5 , 0
+tnum a:  (2, 0) - tnum b:  (3, 4)
+sm:  4 
+sv:  5 
+sigma:  1 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (2, 0) - tnum b:  (4, 0)
+sm:  0 
+sv:  6 
+sigma:  6 
+chi:  0 
+mu:  0 
+result:  6 , 0
+tnum a:  (2, 0) - tnum b:  (4, 1)
+sm:  1 
+sv:  6 
+sigma:  7 
+chi:  1 
+mu:  1 
+result:  6 , 1
+tnum a:  (2, 0) - tnum b:  (4, 2)
+sm:  2 
+sv:  6 
+sigma:  0 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (2, 0) - tnum b:  (4, 3)
+sm:  3 
+sv:  6 
+sigma:  1 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 0) - tnum b:  (5, 0)
+sm:  0 
+sv:  7 
+sigma:  7 
+chi:  0 
+mu:  0 
+result:  7 , 0
+tnum a:  (2, 0) - tnum b:  (5, 2)
+sm:  2 
+sv:  7 
+sigma:  1 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (2, 0) - tnum b:  (6, 0)
+sm:  0 
+sv:  0 
+sigma:  0 
+chi:  0 
+mu:  0 
+result:  0 , 0
+tnum a:  (2, 0) - tnum b:  (6, 1)
+sm:  1 
+sv:  0 
+sigma:  1 
+chi:  1 
+mu:  1 
+result:  0 , 1
+tnum a:  (2, 0) - tnum b:  (7, 0)
+sm:  0 
+sv:  1 
+sigma:  1 
+chi:  0 
+mu:  0 
+result:  1 , 0
+tnum a:  (2, 1) - tnum b:  (2, 4)
+sm:  5 
+sv:  4 
+sigma:  1 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (2, 1) - tnum b:  (2, 5)
+sm:  6 
+sv:  4 
+sigma:  2 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 1) - tnum b:  (3, 0)
+sm:  1 
+sv:  5 
+sigma:  6 
+chi:  3 
+mu:  3 
+result:  4 , 3
+tnum a:  (2, 1) - tnum b:  (3, 4)
+sm:  5 
+sv:  5 
+sigma:  2 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 1) - tnum b:  (4, 0)
+sm:  1 
+sv:  6 
+sigma:  7 
+chi:  1 
+mu:  1 
+result:  6 , 1
+tnum a:  (2, 1) - tnum b:  (4, 1)
+sm:  2 
+sv:  6 
+sigma:  0 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 1) - tnum b:  (4, 2)
+sm:  3 
+sv:  6 
+sigma:  1 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 1) - tnum b:  (4, 3)
+sm:  4 
+sv:  6 
+sigma:  2 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 1) - tnum b:  (5, 0)
+sm:  1 
+sv:  7 
+sigma:  0 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 1) - tnum b:  (5, 2)
+sm:  3 
+sv:  7 
+sigma:  2 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 1) - tnum b:  (6, 0)
+sm:  1 
+sv:  0 
+sigma:  1 
+chi:  1 
+mu:  1 
+result:  0 , 1
+tnum a:  (2, 1) - tnum b:  (6, 1)
+sm:  2 
+sv:  0 
+sigma:  2 
+chi:  2 
+mu:  3 
+result:  0 , 3
+tnum a:  (2, 1) - tnum b:  (7, 0)
+sm:  1 
+sv:  1 
+sigma:  2 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (2, 4) - tnum b:  (2, 5)
+sm:  1 
+sv:  4 
+sigma:  5 
+chi:  1 
+mu:  5 
+result:  0 , 5
+tnum a:  (2, 4) - tnum b:  (3, 0)
+sm:  4 
+sv:  5 
+sigma:  1 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (2, 4) - tnum b:  (3, 4)
+sm:  0 
+sv:  5 
+sigma:  5 
+chi:  0 
+mu:  4 
+result:  1 , 4
+tnum a:  (2, 4) - tnum b:  (4, 0)
+sm:  4 
+sv:  6 
+sigma:  2 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (2, 4) - tnum b:  (4, 1)
+sm:  5 
+sv:  6 
+sigma:  3 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (2, 4) - tnum b:  (4, 2)
+sm:  6 
+sv:  6 
+sigma:  4 
+chi:  2 
+mu:  6 
+result:  0 , 6
+tnum a:  (2, 4) - tnum b:  (4, 3)
+sm:  7 
+sv:  6 
+sigma:  5 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 4) - tnum b:  (5, 0)
+sm:  4 
+sv:  7 
+sigma:  3 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (2, 4) - tnum b:  (5, 2)
+sm:  6 
+sv:  7 
+sigma:  5 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (2, 4) - tnum b:  (6, 0)
+sm:  4 
+sv:  0 
+sigma:  4 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (2, 4) - tnum b:  (6, 1)
+sm:  5 
+sv:  0 
+sigma:  5 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (2, 4) - tnum b:  (7, 0)
+sm:  4 
+sv:  1 
+sigma:  5 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (2, 5) - tnum b:  (3, 0)
+sm:  5 
+sv:  5 
+sigma:  2 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (3, 4)
+sm:  1 
+sv:  5 
+sigma:  6 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (4, 0)
+sm:  5 
+sv:  6 
+sigma:  3 
+chi:  5 
+mu:  5 
+result:  2 , 5
+tnum a:  (2, 5) - tnum b:  (4, 1)
+sm:  6 
+sv:  6 
+sigma:  4 
+chi:  2 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (4, 2)
+sm:  7 
+sv:  6 
+sigma:  5 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (4, 3)
+sm:  0 
+sv:  6 
+sigma:  6 
+chi:  0 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (5, 0)
+sm:  5 
+sv:  7 
+sigma:  4 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (5, 2)
+sm:  7 
+sv:  7 
+sigma:  6 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (6, 0)
+sm:  5 
+sv:  0 
+sigma:  5 
+chi:  5 
+mu:  5 
+result:  0 , 5
+tnum a:  (2, 5) - tnum b:  (6, 1)
+sm:  6 
+sv:  0 
+sigma:  6 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (2, 5) - tnum b:  (7, 0)
+sm:  5 
+sv:  1 
+sigma:  6 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (3, 0) - tnum b:  (3, 4)
+sm:  4 
+sv:  6 
+sigma:  2 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (3, 0) - tnum b:  (4, 0)
+sm:  0 
+sv:  7 
+sigma:  7 
+chi:  0 
+mu:  0 
+result:  7 , 0
+tnum a:  (3, 0) - tnum b:  (4, 1)
+sm:  1 
+sv:  7 
+sigma:  0 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (3, 0) - tnum b:  (4, 2)
+sm:  2 
+sv:  7 
+sigma:  1 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (3, 0) - tnum b:  (4, 3)
+sm:  3 
+sv:  7 
+sigma:  2 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (3, 0) - tnum b:  (5, 0)
+sm:  0 
+sv:  0 
+sigma:  0 
+chi:  0 
+mu:  0 
+result:  0 , 0
+tnum a:  (3, 0) - tnum b:  (5, 2)
+sm:  2 
+sv:  0 
+sigma:  2 
+chi:  2 
+mu:  2 
+result:  0 , 2
+tnum a:  (3, 0) - tnum b:  (6, 0)
+sm:  0 
+sv:  1 
+sigma:  1 
+chi:  0 
+mu:  0 
+result:  1 , 0
+tnum a:  (3, 0) - tnum b:  (6, 1)
+sm:  1 
+sv:  1 
+sigma:  2 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (3, 0) - tnum b:  (7, 0)
+sm:  0 
+sv:  2 
+sigma:  2 
+chi:  0 
+mu:  0 
+result:  2 , 0
+tnum a:  (3, 4) - tnum b:  (4, 0)
+sm:  4 
+sv:  7 
+sigma:  3 
+chi:  4 
+mu:  4 
+result:  3 , 4
+tnum a:  (3, 4) - tnum b:  (4, 1)
+sm:  5 
+sv:  7 
+sigma:  4 
+chi:  3 
+mu:  7 
+result:  0 , 7
+tnum a:  (3, 4) - tnum b:  (4, 2)
+sm:  6 
+sv:  7 
+sigma:  5 
+chi:  2 
+mu:  6 
+result:  1 , 6
+tnum a:  (3, 4) - tnum b:  (4, 3)
+sm:  7 
+sv:  7 
+sigma:  6 
+chi:  1 
+mu:  7 
+result:  0 , 7
+tnum a:  (3, 4) - tnum b:  (5, 0)
+sm:  4 
+sv:  0 
+sigma:  4 
+chi:  4 
+mu:  4 
+result:  0 , 4
+tnum a:  (3, 4) - tnum b:  (5, 2)
+sm:  6 
+sv:  0 
+sigma:  6 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (3, 4) - tnum b:  (6, 0)
+sm:  4 
+sv:  1 
+sigma:  5 
+chi:  4 
+mu:  4 
+result:  1 , 4
+tnum a:  (3, 4) - tnum b:  (6, 1)
+sm:  5 
+sv:  1 
+sigma:  6 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (3, 4) - tnum b:  (7, 0)
+sm:  4 
+sv:  2 
+sigma:  6 
+chi:  4 
+mu:  4 
+result:  2 , 4
+tnum a:  (4, 0) - tnum b:  (4, 1)
+sm:  1 
+sv:  0 
+sigma:  1 
+chi:  1 
+mu:  1 
+result:  0 , 1
+tnum a:  (4, 0) - tnum b:  (4, 2)
+sm:  2 
+sv:  0 
+sigma:  2 
+chi:  2 
+mu:  2 
+result:  0 , 2
+tnum a:  (4, 0) - tnum b:  (4, 3)
+sm:  3 
+sv:  0 
+sigma:  3 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (4, 0) - tnum b:  (5, 0)
+sm:  0 
+sv:  1 
+sigma:  1 
+chi:  0 
+mu:  0 
+result:  1 , 0
+tnum a:  (4, 0) - tnum b:  (5, 2)
+sm:  2 
+sv:  1 
+sigma:  3 
+chi:  2 
+mu:  2 
+result:  1 , 2
+tnum a:  (4, 0) - tnum b:  (6, 0)
+sm:  0 
+sv:  2 
+sigma:  2 
+chi:  0 
+mu:  0 
+result:  2 , 0
+tnum a:  (4, 0) - tnum b:  (6, 1)
+sm:  1 
+sv:  2 
+sigma:  3 
+chi:  1 
+mu:  1 
+result:  2 , 1
+tnum a:  (4, 0) - tnum b:  (7, 0)
+sm:  0 
+sv:  3 
+sigma:  3 
+chi:  0 
+mu:  0 
+result:  3 , 0
+tnum a:  (4, 1) - tnum b:  (4, 2)
+sm:  3 
+sv:  0 
+sigma:  3 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (4, 1) - tnum b:  (4, 3)
+sm:  4 
+sv:  0 
+sigma:  4 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 1) - tnum b:  (5, 0)
+sm:  1 
+sv:  1 
+sigma:  2 
+chi:  3 
+mu:  3 
+result:  0 , 3
+tnum a:  (4, 1) - tnum b:  (5, 2)
+sm:  3 
+sv:  1 
+sigma:  4 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 1) - tnum b:  (6, 0)
+sm:  1 
+sv:  2 
+sigma:  3 
+chi:  1 
+mu:  1 
+result:  2 , 1
+tnum a:  (4, 1) - tnum b:  (6, 1)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 1) - tnum b:  (7, 0)
+sm:  1 
+sv:  3 
+sigma:  4 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 2) - tnum b:  (4, 3)
+sm:  5 
+sv:  0 
+sigma:  5 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 2) - tnum b:  (5, 0)
+sm:  2 
+sv:  1 
+sigma:  3 
+chi:  2 
+mu:  2 
+result:  1 , 2
+tnum a:  (4, 2) - tnum b:  (5, 2)
+sm:  4 
+sv:  1 
+sigma:  5 
+chi:  4 
+mu:  6 
+result:  1 , 6
+tnum a:  (4, 2) - tnum b:  (6, 0)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (4, 2) - tnum b:  (6, 1)
+sm:  3 
+sv:  2 
+sigma:  5 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 2) - tnum b:  (7, 0)
+sm:  2 
+sv:  3 
+sigma:  5 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (4, 3) - tnum b:  (5, 0)
+sm:  3 
+sv:  1 
+sigma:  4 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 3) - tnum b:  (5, 2)
+sm:  5 
+sv:  1 
+sigma:  6 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 3) - tnum b:  (6, 0)
+sm:  3 
+sv:  2 
+sigma:  5 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 3) - tnum b:  (6, 1)
+sm:  4 
+sv:  2 
+sigma:  6 
+chi:  4 
+mu:  7 
+result:  0 , 7
+tnum a:  (4, 3) - tnum b:  (7, 0)
+sm:  3 
+sv:  3 
+sigma:  6 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (5, 0) - tnum b:  (5, 2)
+sm:  2 
+sv:  2 
+sigma:  4 
+chi:  6 
+mu:  6 
+result:  0 , 6
+tnum a:  (5, 0) - tnum b:  (6, 0)
+sm:  0 
+sv:  3 
+sigma:  3 
+chi:  0 
+mu:  0 
+result:  3 , 0
+tnum a:  (5, 0) - tnum b:  (6, 1)
+sm:  1 
+sv:  3 
+sigma:  4 
+chi:  7 
+mu:  7 
+result:  0 , 7
+tnum a:  (5, 0) - tnum b:  (7, 0)
+sm:  0 
+sv:  4 
+sigma:  4 
+chi:  0 
+mu:  0 
+result:  4 , 0
+tnum a:  (5, 2) - tnum b:  (6, 0)
+sm:  2 
+sv:  3 
+sigma:  5 
+chi:  6 
+mu:  6 
+result:  1 , 6
+tnum a:  (5, 2) - tnum b:  (6, 1)
+sm:  3 
+sv:  3 
+sigma:  6 
+chi:  5 
+mu:  7 
+result:  0 , 7
+tnum a:  (5, 2) - tnum b:  (7, 0)
+sm:  2 
+sv:  4 
+sigma:  6 
+chi:  2 
+mu:  2 
+result:  4 , 2
+tnum a:  (6, 0) - tnum b:  (6, 1)
+sm:  1 
+sv:  4 
+sigma:  5 
+chi:  1 
+mu:  1 
+result:  4 , 1
+tnum a:  (6, 0) - tnum b:  (7, 0)
+sm:  0 
+sv:  5 
+sigma:  5 
+chi:  0 
+mu:  0 
+result:  5 , 0
+tnum a:  (6, 1) - tnum b:  (7, 0)
+sm:  1 
+sv:  5 
+sigma:  6 
+chi:  3 
+mu:  3 
+result:  4 , 3
+351
+Counter({(0, 7): 144, (1, 6): 37, (0, 6): 34, (0, 5): 10, (1, 4): 10, (2, 5): 10, (3, 4): 10, (0, 3): 9, (0, 4): 9, (2, 4): 9, (4, 3): 9, (0, 1): 4, (0, 2): 4, (1, 0): 4, (1, 2): 4, (2, 1): 4, (3, 0): 4, (4, 1): 4, (4, 2): 4, (5, 0): 4, (5, 2): 4, (6, 1): 4, (7, 0): 4, (2, 0): 3, (4, 0): 3, (6, 0): 3, (0, 0): 3})

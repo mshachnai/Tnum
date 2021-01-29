@@ -49,22 +49,36 @@ def new_tnum_add(a, b, bits):
     #values allowed for n-bits
     val = res[0]
     mask = res[0]
+    #this is a correct way of deriving val/mask from range full range
     #for i in res:
-        #check if complements are in the set and if true, return < 0, 2^n-1 >
+        #val &= i
+        #mask |= i
+
+        #Dont need this part----check if complements are in the set and if true, return < 0, 2^n-1 >
         #if(abs(i-(2**bits-1)) in res and i in res):
         #    print("result: ", 0, ",", 2**bits-1)
         #    return (0, 2**bits-1)
-        #val &= i
-        #mask |= i 
     
     #if no complements in set
     #val is the AND of all elements in range
     #mask is OR of all elements in range minus val, take absolute value
     ####correct code
-    ####mask = abs(val-mask)
+    #mask = abs(val-mask)
+    
     #testing theory - do the same but only with max/min of values
     val = (max(res) & min(res))
     mask = abs(val - (max(res) | min(res)))
+    '''
+    #another test (taking max-min AND max >> 1 until min(res))
+    tst = max(res) - min(res)
+    val=max(res)
+    if(tst < min(res)):
+        val &= min(res)
+    else:
+        while(tst>=min(res)):
+            val &= tst
+            tst >>= 1
+    '''
     print("result: ", val, ",", mask)
     return val, mask
 
@@ -81,7 +95,7 @@ def valid_tnum(val, mask, bits):
 
 #################################### MAIN FUNCTION
 def main():
-    for i in range(6):
+    for i in range(4):
         #define size of tnum and number of valid values
         n = i
         valid_set = 3**n
@@ -93,7 +107,7 @@ def main():
         result_list1 = []
         #var to decide whether to add all valid tnum values or just 3**n choose n
         #combinations
-        all_add = 0
+        all_add = 1
 
         #for testing
         #a, b = (0,1), (1,0)
@@ -106,9 +120,11 @@ def main():
             for i in range(valid_set):
                 for j in range(valid_set):
                     #linux original
-                    #result_list.append(tnum_add(tnum_values[i], tnum_values[j], n))
+                    result_list.append(tnum_add(tnum_values[i], tnum_values[j], n))
                     #my algo
-                    #result_list.append(new_tnum_add(tnum_values[i], tnum_values[j], n))
+                    result_list1.append(new_tnum_add(tnum_values[i], tnum_values[j], n))
+                    if(result_list[-1] != result_list1[-1]):
+                        print("MISMATCH - WRONG RESULT, Correct Result: ",result_list[-1])
                     count += 1
         else:
             #since tnum is commutative, we can make list of all combinations rather than 
@@ -121,20 +137,23 @@ def main():
                     #--------------------
                     #my algo
                     result_list1.append(new_tnum_add(i[0], i[1], n))
+                    if(result_list[-1] != result_list1[-1]):
+                        print("MISMATCH - WRONG RESULT, Correct Result: ", tnum_add(i[0], i[1], n))
                     count += 1
 
         #verify results:
-            print(count, "additions performed")
-            #print additions solution occurences 
-            print("Linux: ", Counter(elem for elem in result_list))
-            print("My Algo: ", Counter(elem for elem in result_list))
-            #compare against correct tnum addition algorithm
-            if(Counter(elem for elem in result_list) == (Counter(elem for elem in
-                result_list))):
-                print("Correct")
-            else:
-                print("Verification failed")
-                break;
+        print(n, "- bits")
+        print(count, "additions performed")
+        #print additions solution occurences 
+        print("Linux: ", Counter(elem for elem in result_list))
+        print("My Algo: ", Counter(elem for elem in result_list1))
+        #compare against correct tnum addition algorithm
+        if(Counter(elem for elem in result_list) == (Counter(elem for elem in
+            result_list1))):
+            print("Correct\n\n")
+        else:
+            print("Verification failed\n\n")
+            #break;
 
         #remove duplicates and you get all the original valid tnums
         #result_list = list(set(result_list)) 

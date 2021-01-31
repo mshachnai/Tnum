@@ -21,16 +21,22 @@ p1 = ta_val == a & ~ta_mask
 p2 = ta_mask == a&~ta_mask - a|ta_mask  
 #p3 = a>=0 and a <=2**8-1  
 
-formula = z3.ForAll([a, ta_val, ta_mask], z3.Implies(p1, p2))
-
+#formula = z3.ForAll([a, ta_val, ta_mask], z3.Implies(p1, p2))
+X = z3.Int('x')
+print(X)
+l = [1,2,3]
 
 
 #z3.prove(z3.Not(z3.Implies(z3.And(p1, p2, p3, p4, p5, p6, p7, p8,p9, p10), output)))
 s = z3.Solver()
-s.add(z3.Not(formula))
+s.add(X in l)
+#s.add(z3.Not(formula))
+
 #s.add(formula)
 print (s.check())
 print (s.model())
+
+
 
 '''
 a = z3.BitVec('a', 8)

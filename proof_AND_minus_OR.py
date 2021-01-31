@@ -6,9 +6,9 @@ import z3
 #from z3 import * considered bad practice but defines namespace z3
 
 # List of Variables
-a, ta_val, ta_mask, b, tb_val, tb_mask, c, tc_val, tc_mask, out1, out2 = z3.BitVecs('a ta_val ta_mask b tb_val tb_mask c tc_val tc_mask out1 out2', 64)
+a, ta_val, ta_mask, b, tb_val, tb_mask, c, tc_val, tc_mask, out1, out2 = z3.BitVecs('a ta_val ta_mask b tb_val tb_mask c tc_val tc_mask out1 out2', 8)
 
-X = [ z3.BitVec('x%s' % i, 64) for i in range(4) ]
+X = [ z3.BitVec('x%s' % i, 8) for i in range(4) ]
 print(X)
 
 f_AND = X[0]

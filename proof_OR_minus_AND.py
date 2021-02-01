@@ -12,20 +12,54 @@ bits = 16
 # List of Variables
 a, ta_val, ta_mask, b, tb_val, tb_mask, c, tc_val, tc_mask, out1, out2 = z3.BitVecs('a ta_val ta_mask b tb_val tb_mask c tc_val tc_mask out1 out2', bits)
 
-
 #create set that contains at most 2**n elements based on number of bits in tnum
 X = [ z3.BitVec('x%s' % i, bits) for i in range(2**bits) ]
 #print(X)
 
 f_AND = X[0]
 f_OR = X[0]
-AND_max = X[0]
  
 
-#this is for testing some syntax
+#set of properties that define a tnum (the set has a min/ max values and every 
+#member of the tnum range must equal the tnum value when bitwise AND with negation of mask
 range_constraint = z3.And([X[i] <= X[i+1] for i in range(2**bits-1)])
 tnum_def_constraint = z3.And([X[i] & ~ta_mask == ta_val for i in range(2**bits)])
-#print(And_constraint)
+#tnum val and mask cannot share 1 in the same bit index
+xor_property = ta_mask ^ ta_val == 0
+#print (f_AND)
+
+
+#AND/OR of all elements in set
+for i in range(len(X)):
+    f_AND &=  X[i]
+    f_OR &=  X[i]
+
+formula = z3.Implies(z3.And(range_constraint,tnum_def_constraint , xor_property), 
+    z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask))
+
+#prove formula
+z3.prove(formula)
+#verify by taking negation and trying to find satisfiable interpretation
+s = z3.Solver()
+s.add(z3.Not(formula))
+print(s.check())
+print(s.model())
+
+
+
+
+
+
+
+
+######for later use maybe
+
+
+#set of properties 
+#p3 = ta_val == X[0] & ~ta_mask
+#p4 = ta_val == X[1] & ~ta_mask
+#p5 = ta_val == X[2] & ~ta_mask
+#p6 = ta_val == X[3] & ~ta_mask
 
 #constraints  
 #And_constraint = z3.And(X[0] <= X[1], X[1] <= X[2], X[2] <= X[3])
@@ -33,40 +67,6 @@ tnum_def_constraint = z3.And([X[i] & ~ta_mask == ta_val for i in range(2**bits)]
 #min_max = X[0] & X[3]
 #not_empty = z3.And(X[0] >= 0, X[1] >= 0, X[2] >= 0, X[3] >= 0)
 
-#AND/OR of all elements in set
-for i in range(len(X)):
-    f_AND &=  X[i]
-    f_OR &=  X[i]
-
-#set of properties 
-p3 = ta_val == X[0] & ~ta_mask
-p4 = ta_val == X[1] & ~ta_mask
-p5 = ta_val == X[2] & ~ta_mask
-p6 = ta_val == X[3] & ~ta_mask
-#tnum val and mask cannot share 1 in the same bit index
-xor_property = ta_mask ^ ta_val == 0
-
-
-#print (And_constraint)
-#print (f_AND)
-#print (min_max)
-#z3.solve(And_constraint, p3,p4,p5,p6,  f_AND == ta_val, f_OR-f_AND == ta_mask)
-#formula = z3.ForAll([X[0], X[1], X[2], X[3],ta_mask, ta_val], 
-#    z3.Implies(z3.And(And_constraint, p3,p4,p5,p6, xor_property), 
-#    z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask)))
-formula = z3.Implies(z3.And(range_constraint,tnum_def_constraint , xor_property), 
-    z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask))
-    
-#    z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask)))
-z3.prove(formula)
-
-s = z3.Solver()
-s.add(z3.Not(formula))
-print(s.check())
-print(s.model())
-
-
-#for later use maybe
 
 #p1 = ta_val == a & ~ta_mask
 #p2 = ta_mask == a&~ta_mask - a|ta_mask 
@@ -76,6 +76,11 @@ print(s.model())
 #    not_eq_constraint), f_AND == min_max)))
 #s.add(z3.Not(z3.Implies(z3.And(And_constraint, not_empty), f_AND == min_max)))
 
+
+#z3.solve(And_constraint, p3,p4,p5,p6,  f_AND == ta_val, f_OR-f_AND == ta_mask)
+#formula = z3.ForAll([X[0], X[1], X[2], X[3],ta_mask, ta_val], 
+#    z3.Implies(z3.And(And_constraint, p3,p4,p5,p6, xor_property), 
+#    z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask)))
 
 #z3.prove(z3.Implies(z3.And(And_constraint, not_eq_constraint), p))
 #formula = z3.ForAll([a, ta_val, ta_mask], z3.Implies(p1, p2))

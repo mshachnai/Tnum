@@ -17,6 +17,19 @@ def generate_tnums(n):
                 tnum_list.append((i,j))
     return tnum_list
 
+
+#tnum range - takes min and max values of tnum interval range and returns a tnum
+#as defined by linux kernel
+def tnum_range(min_a, max_a):
+    
+    chi = min_a ^ max_a
+    bits = chi.bit_length()
+    delta = (1 << bits) - 1
+    val = min_a & ~delta
+    mask = delta
+
+    return val, mask
+
 #addition of two tnum numbers as defined in linux kernel
 def tnum_add(a, b, bits): 
     print("tnum a: ", a, "- tnum b: ", b)
@@ -51,34 +64,24 @@ def new_tnum_add(a, b, bits):
     mask = res[0]
     #this is a correct way of deriving val/mask from range full range
     #for i in res:
-        #val &= i
-        #mask |= i
+    #    val &= i
+    #    mask |= i
 
-        #Dont need this part----check if complements are in the set and if true, return < 0, 2^n-1 >
-        #if(abs(i-(2**bits-1)) in res and i in res):
-        #    print("result: ", 0, ",", 2**bits-1)
-        #    return (0, 2**bits-1)
-    
-    #if no complements in set
     #val is the AND of all elements in range
-    #mask is OR of all elements in range minus val, take absolute value
+    #mask is OR of all elements in range minus val
     ####correct code
-    #mask = abs(val-mask)
-    
+    #mask = mask-val
+        
     #testing theory - do the same but only with max/min of values
-    val = (max(res) & min(res))
-    mask = abs(val - (max(res) | min(res)))
-    '''
-    #another test (taking max-min AND max >> 1 until min(res))
-    tst = max(res) - min(res)
-    val=max(res)
-    if(tst < min(res)):
-        val &= min(res)
-    else:
-        while(tst>=min(res)):
-            val &= tst
-            tst >>= 1
-    '''
+    #####this approach doesn't work
+    #val = (max(res) & min(res))
+    #mask = (max(res) | min(res)) - val
+    
+    #comparison for tnum_add using tnum_range - cartesian sum of two tnum ranges
+    #and take tnum_range
+    
+    val, mask = tnum_range(min(res), max(res))
+
     print("result: ", val, ",", mask)
     return val, mask
 
@@ -95,13 +98,14 @@ def valid_tnum(val, mask, bits):
 
 #################################### MAIN FUNCTION
 def main():
-    for i in range(4):
+    for i in range(5):
         #define size of tnum and number of valid values
         n = i
         valid_set = 3**n
         complete_set = 2**(2**n)
 
         count = 0
+        bad_counter = 0
         tnum_values = generate_tnums(n)
         result_list = []
         result_list1 = []
@@ -125,6 +129,7 @@ def main():
                     result_list1.append(new_tnum_add(tnum_values[i], tnum_values[j], n))
                     if(result_list[-1] != result_list1[-1]):
                         print("MISMATCH - WRONG RESULT, Correct Result: ",result_list[-1])
+                        bad_counter += 1
                     count += 1
         else:
             #since tnum is commutative, we can make list of all combinations rather than 
@@ -139,11 +144,13 @@ def main():
                     result_list1.append(new_tnum_add(i[0], i[1], n))
                     if(result_list[-1] != result_list1[-1]):
                         print("MISMATCH - WRONG RESULT, Correct Result: ", tnum_add(i[0], i[1], n))
+                        bad_counter += 1
                     count += 1
 
         #verify results:
         print(n, "- bits")
         print(count, "additions performed")
+        print(bad_counter, "bad outcomes")
         #print additions solution occurences 
         print("Linux: ", Counter(elem for elem in result_list))
         print("My Algo: ", Counter(elem for elem in result_list1))

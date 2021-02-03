@@ -6,7 +6,7 @@ import z3
 #from z3 import * considered bad practice but defines namespace z3
 
 #change the amount of bits in the tnum to see that indeed the proof holds for all 
-#values (within reason)
+#values (works for 16 bits so far)
 bits = 16
 
 # List of Variables
@@ -15,6 +15,8 @@ a, ta_val, ta_mask, b, tb_val, tb_mask, c, tc_val, tc_mask, out1, out2 = z3.BitV
 #create set that contains at most 2**n elements based on number of bits in tnum
 X = [ z3.BitVec('x%s' % i, bits) for i in range(2**bits) ]
 #print(X)
+
+f_AND, f_OR = z3.BitVecs('f_AND f_OR', bits)
 
 f_AND = X[0]
 f_OR = X[0]
@@ -25,18 +27,28 @@ f_OR = X[0]
 range_constraint = z3.And([X[i] <= X[i+1] for i in range(2**bits-1)])
 tnum_def_constraint = z3.And([X[i] & ~ta_mask == ta_val for i in range(2**bits)])
 #tnum val and mask cannot share 1 in the same bit index
-xor_property = ta_mask ^ ta_val == 0
+and_property = ta_mask & ta_val == 0
+#tnum_property = ta_val & ~ta_mask == ta_val
 #print (f_AND)
 
 
 #AND/OR of all elements in set
-for i in range(len(X)):
+for i in range(1, len(X)):
     f_AND &=  X[i]
-    f_OR &=  X[i]
+    f_OR |=  X[i]
 
-formula = z3.Implies(z3.And(range_constraint,tnum_def_constraint , xor_property), 
-    z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask))
+#ta_val = f_AND
+#ta_mask = f_OR-f_AND
+#print(f_AND, f_OR)
+#formula = z3.Implies(z3.And(range_constraint,tnum_def_constraint, and_property,
+#    tnum_property), z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask))
 
+formula = z3.Implies(z3.And(range_constraint, ta_val == f_AND, ta_mask == f_OR-f_AND), 
+    z3.And(tnum_def_constraint))
+    #tnum_property), z3.And(f_AND == ta_val, f_OR-f_AND == ta_mask))
+
+#useful to print formulation on low bits
+#print(formula)
 #prove formula
 z3.prove(formula)
 #verify by taking negation and trying to find satisfiable interpretation
